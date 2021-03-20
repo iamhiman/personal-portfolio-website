@@ -577,9 +577,6 @@ button {
 
 #projects {
     background-color: #e7e7e5;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
     padding-bottom: 60px;
     padding-top: 50px;
 }
@@ -802,11 +799,7 @@ button {
 ================================================== */
 
 #skills {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url("../images/bg2.jpg");
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../images/bg2.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+    background-color: #e7e7e5;
 }
 
 #skills h1 {
@@ -815,12 +808,13 @@ button {
     font-family: 'Roboto', sans-serif;
     margin-top: 0px;
     padding-top: 90px;
+    color: #9c27b0;
 }
 
 #skills h1::after {
     display: block;
     height: 5px;
-    background-color: #e67e22;
+    background-color: #9c27b0;
     content: " ";
     width: 200px;
     margin: 0 auto;
@@ -844,19 +838,19 @@ button {
     flex: 0 1 400px;
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
-    border: 3px solid #e67e22;
+    border: 3px solid #9c27b0;
     align-self: flex-end;
 }
 
 .program-lang,
-.web,
-.dev-tools {
-    margin-bottom: 15px;
+.web {
+    margin-bottom: 30px;
 }
 
 .sub-heading {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .skills-nav {
@@ -880,7 +874,7 @@ button {
 .rating span {
     height: 12px;
     width: 12px;
-    background-color: #ff7800;
+    background-color: #9c27b0;
     border-radius: 20px;
     margin: 0 2px;
 }
@@ -907,14 +901,15 @@ button {
     font-size: 20px;
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
-    border: 3px solid #e67e22;
+    border: 3px solid #9c27b0;
+    padding: 10px 0;
 }
 
 .mytabs {
     display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
 }
 
 .mytabs input[type="radio"] {
@@ -927,7 +922,6 @@ button {
     background: #e2e2e2;
     font-weight: bold;
     cursor: pointer;
-
 }
 
 .tab-header {
@@ -965,11 +959,11 @@ button {
 
 .mytabs input[type='radio']:checked+label+.tab {
     display: block;
-    border: 3px solid #e67e22;
+    border: 3px solid #9c27b0;
 }
 
 .mytabs input[type="radio"]:checked+label {
-    background: #e67e22;
+    background: #9c27b0;
     -webkit-transition: 0.8s;
     transition: 0.8s;
 }
