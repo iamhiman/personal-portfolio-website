@@ -435,7 +435,7 @@ hr{
 #about h1::after {
     display: block;
     height: 5px;
-    background-color: #e67e22;
+    background-color: #9c27b0;
     content: " ";
     width: 200px;
     margin: 0 auto;
@@ -524,7 +524,7 @@ hr{
 }
 
 .myimage img {
-    width: 50%;
+    height: 250px;
     margin-top: 25px;
 }
 
@@ -535,7 +535,7 @@ hr{
 }
 
 .social-logo {
-    width: 15%;
+    width: 50px;
     margin-right: 5px;
 }
 

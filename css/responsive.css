@@ -78,44 +78,7 @@
 }
 
 
-@media only screen and (max-width: 730px) and (min-width: 518px) {
-    .right-box {
-        -webkit-box-flex: 1;
-        -ms-flex: 1 200px;
-        flex: 1 200px;
-    }
-
-    .about-para p {
-        font-size: 16px;
-    }
-
-    .social-logo {
-        width: 20%;
-    }
-
-    .myimage img {
-        width: 70%;
-    }
-
-    .resumeBtn {
-        font-size: 16px;
-    }
-
-    .btn {
-        padding: 7px 18px;
-    }
-}
-
-@media only screen and (max-width: 500px) and (min-width: 400px) {
-    .about-code {
-        font-size: 20px;
-    }
-}
-
 @media only screen and (max-width: 399px) {
-    .about-code {
-        font-size: 18px;
-    }
 
     .tab-header {
         -webkit-box-orient: vertical;
