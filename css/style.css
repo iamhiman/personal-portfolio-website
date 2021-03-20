@@ -560,14 +560,14 @@ button {
     padding: 10px 30px;
     font-weight: 400;
     border-radius: 200px;
-    border: 2px solid #e67e22;
-    color: #e67e22;
+    border: 2px solid #9c27b0;
+    color: #9c27b0;
     -webkit-transition: 1s;
     transition: 1s;
 }
 
 .btn:hover {
-    background-color: #cf6d17;
+    background-color: #9c27b0;
     color: #ffffff;
 }
 
