@@ -41,19 +41,19 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 12,
+      "value": 6,
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 8,
-        "size_min": 7,
+        "speed": 6,
+        "size_min": 4,
         "sync": true
       }
     },
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#e67e22",
+      "color": "#9c27b0",
       "opacity": 1,
       "width": 2
     },

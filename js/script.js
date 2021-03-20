@@ -24,10 +24,10 @@ var typed = new Typed('.typer', {
         "The best thing about a Boolean is even if you are wrong, you are only off by a bit.",
         "I'm not great at advice, but can I interest you in a sarcastic comment?"
     ],
-    typeSpeed: 15,
+    typeSpeed: 30,
     backSpeed: 15,
     loop: true,
-    backDelay: 1000
+    backDelay: 1200
 });
 
 /* ==================================================
