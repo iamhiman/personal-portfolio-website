@@ -24,6 +24,10 @@ button {
     outline: none;
 }
 
+hr{
+    border: 50px solid #7b1fa2;
+}
+
 /* ==================================================
                     Preloader
 ================================================== */
@@ -195,7 +199,7 @@ button {
 .logo img {
     width: 76px;
     border-radius: 50%;
-    border: 3px solid #e67e22;
+    border: 3px solid #9c27b0;
 }
 
 .navbar {
@@ -236,7 +240,7 @@ button {
 .nav-list li a::before {
     content: '';
     position: absolute;
-    background: #e67e22;
+    background: #9c27b0;
     top: 0;
     left: 0;
     width: 100%;
@@ -257,7 +261,7 @@ button {
 .nav-list li a::after {
     content: '';
     position: absolute;
-    background: #e67e22;
+    background: #9c27b0;
     bottom: 0;
     right: 0;
     width: 100%;
