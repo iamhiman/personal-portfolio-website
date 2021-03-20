@@ -1160,9 +1160,8 @@ hr{
 }
 
 .copyright {
-    margin-right: -8px;
-    margin-left: -8px;
-    font-size: 30px;
+    margin-left: 2px;
+    font-size: 25px;
 }
 
 .footer-social {
@@ -1184,17 +1183,13 @@ hr{
 }
 
 .footer-icon {
-    border: 3px solid #e67e22;
-    width: 12%;
+    border: 2px solid #9c27b0;
+    border-radius: 50%;
+    width: 50px;
     margin-right: 5px;
     -webkit-transition: 0.6s;
     transition: 0.6s;
-}
-
-.footer-icon:hover {
-    box-shadow: -5px -5px 20px #2867b2;
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    padding: 5px;
 }
 
 .open-sourced {
