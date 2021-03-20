@@ -993,6 +993,10 @@ button {
                       Contact
 ================================================== */
 
+#contact {
+    background-color: #e7e7e5;
+}
+
 .contact h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -1000,12 +1004,13 @@ button {
     margin-top: 0px;
     padding-top: 90px;
     margin-bottom: 0px;
+    color: #9c27b0;
 }
 
 .contact h1::after {
     display: block;
     height: 5px;
-    background-color: #e67e22;
+    background-color: #9c27b0;
     content: " ";
     width: 200px;
     margin: 0 auto;
@@ -1066,7 +1071,7 @@ button {
 .forminput textarea {
     width: 85%;
     padding: 10px;
-    border: 2px solid #e67e22;
+    border: 2px solid #9c27b0;
     margin: 10px;
     border-radius: 12px;
     font-size: 22px;
@@ -1088,27 +1093,29 @@ button {
     background-position: 1px 0px;
     background-repeat: no-repeat;
     opacity: 1;
+    background-size: 50px;
 }
 
 .email {
     background-image: url("../images/email.png");
     background-position: 1px 0px;
     background-repeat: no-repeat;
+    background-size: 50px;
 }
 
 .message {
     background-image: url("../images/message.png");
-    background-position: 5px 7px;
+    background-position: 5px 1px;
     background-repeat: no-repeat;
     resize: none;
-    background-size: 40px;
+    background-size: 50px;
 }
 
 .formerror {
-    color: #ffffff;
     margin-bottom: -15px;
     margin-left: 12px;
-    background: #f44336;
+    color: red;
+    font-weight: bold;
 }
 
 
@@ -1118,8 +1125,8 @@ button {
     cursor: pointer;
     border-radius: 8px;
     color: #ffffff;
-    background-color: #e67e22;
-    border: 2px solid #e67e22;
+    background-color: #9c27b0;
+    border: 2px solid #9c27b0;
     max-width: 100px;
     margin-left: 10px;
     margin-top: 10px;
@@ -1130,8 +1137,8 @@ button {
 
 .form-button:hover {
     color: #ffffff;
-    background-color: #ff9300;
-    border: 2px solid #f48524;
+    background-color: #6a1479;
+    border: 2px solid #6a1479;
 }
 
 /* ==================================================
