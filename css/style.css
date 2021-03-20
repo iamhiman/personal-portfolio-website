@@ -622,7 +622,7 @@ button {
     box-shadow: 0 2px 6px #555;
     -webkit-box-flex: 0;
     flex: 0 0 200px;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .project-text {
