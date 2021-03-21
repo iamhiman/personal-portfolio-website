@@ -1156,11 +1156,6 @@ hr {
     justify-content: space-around;
 }
 
-.copyright {
-    margin-left: 2px;
-    font-size: 25px;
-}
-
 .footer-social {
     -webkit-box-flex: 0;
     flex: 0 1 400px;
@@ -1197,9 +1192,8 @@ hr {
 
 .go-up-btn {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    font-size: 10px;
+    bottom: 20px;
+    right: 20px;
 }
 
 .go-up-btn img {
