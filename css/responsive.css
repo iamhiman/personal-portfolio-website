@@ -42,7 +42,7 @@
         margin-bottom: 15px;
     }
 
-    .burger {
+    .menu {
         display: block;
     }
 
@@ -179,11 +179,11 @@
         font-size: 14px;
     }
 
-    .footer-content{
+    .footer-content {
         font-size: 16px;
     }
 
-    .footer-icon{
+    .footer-icon {
         width: 40px;
     }
 }

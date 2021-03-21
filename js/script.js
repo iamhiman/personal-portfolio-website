@@ -1,15 +1,20 @@
 /* ==================================================
-                  Hamburger Navbar
+                  Burger Menu
 ================================================== */
 
-burger = document.querySelector('.burger');
-navbar = document.querySelector('.navbar');
-navList = document.querySelector('.nav-list');
+let menu = document.querySelector('.menu');
+let navbar = document.querySelector('.navbar');
+let navList = document.querySelector('.nav-list');
+let line1 = document.querySelector(".line1")
+let line2 = document.querySelector(".line2")
+let line3 = document.querySelector(".line3")
 
-burger.addEventListener('click', () => {
+menu.addEventListener('click', (e) => {
     navList.classList.toggle('opacity-mob-nav');
     navbar.classList.toggle('height-mob-nav');
-
+    line1.classList.toggle("line-1");
+    line2.classList.toggle("line-2");
+    line3.classList.toggle("line-3");
 });
 
 /* ==================================================

@@ -283,7 +283,7 @@ hr {
     transform: scaleX(1);
 }
 
-.burger {
+.menu {
     display: none;
     position: absolute;
     cursor: pointer;
@@ -291,11 +291,29 @@ hr {
     top: 15px;
 }
 
-.line {
+.line1,
+.line2,
+.line3 {
     width: 33px;
     background-color: white;
     height: 4px;
     margin: 5px 3px;
+}
+
+.line-1 {
+    transform: rotate(-45deg);
+    top: 10px;
+    position: relative;
+}
+
+.line-2 {
+    display: none;
+}
+
+.line-3 {
+    transform: rotate(45deg);
+    position: relative;
+    top: 1px;
 }
 
 /* ==================================================
