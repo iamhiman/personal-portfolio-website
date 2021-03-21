@@ -304,7 +304,7 @@ hr{
 
 .about-section {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     position: absolute;
 }
 
@@ -313,17 +313,19 @@ hr{
     display: flex;
     max-width: 90%;
     margin: auto;
-    height: 80%;
+    height: 500px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
     -webkit-box-pack: justify;
     justify-content: space-between;
+    align-items: center;
 }
 
 .first-half {
     width: 40%;
     margin-top: 10px;
+    align-self: flex-start;
 }
 
 .about-code {
@@ -388,8 +390,8 @@ hr{
 }
 
 .second-half {
-    width: 90%;
-    margin: auto;
+    width: 1000px;
+    margin: 5px;
 }
 
 .typer {
