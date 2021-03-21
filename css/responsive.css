@@ -86,7 +86,7 @@
     .form-container form,
     .forminput input,
     .forminput textarea {
-        width: 90%;
+        width: 100%;
     }
 
     .forminput input,
