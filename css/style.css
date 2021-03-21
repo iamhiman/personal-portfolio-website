@@ -19,7 +19,7 @@ html {
     overflow-x: hidden;
 }
 
-body{
+body {
     background-color: #eaeaea;
 }
 
@@ -28,7 +28,7 @@ button {
     outline: none;
 }
 
-hr{
+hr {
     border: 50px solid #7b1fa2;
 }
 
@@ -940,14 +940,13 @@ hr{
 }
 
 .tab-header img {
-    -webkit-box-flex: 0;
-    flex: 0 100px;
+    width: 100px;
     align-self: center;
 }
 
 .tab-header p {
     -webkit-box-flex: 2;
-    flex: 2 150px;
+    flex: 2 100px;
 }
 
 .mytabs .tab {
@@ -957,6 +956,7 @@ hr{
     order: 1;
     display: none;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
     -webkit-transition: .6s;
     transition: .6s;
 }
@@ -978,8 +978,8 @@ hr{
     display: flex;
     -webkit-box-pack: space-evenly;
     justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .tab-text {
@@ -1202,7 +1202,6 @@ hr{
     font-size: 10px;
 }
 
-.go-up-btn img{
+.go-up-btn img {
     width: 40px;
 }
-
