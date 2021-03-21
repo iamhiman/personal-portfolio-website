@@ -301,6 +301,7 @@ hr {
 }
 
 .line-1 {
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     top: 10px;
     position: relative;
@@ -311,6 +312,7 @@ hr {
 }
 
 .line-3 {
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     position: relative;
     top: 1px;
@@ -337,6 +339,7 @@ hr {
     flex-direction: column;
     -webkit-box-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
     align-items: center;
 }
 
@@ -672,7 +675,9 @@ hr {
 
 .project-btn-container {
     margin-top: 20px;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: space-evenly;
     justify-content: space-evenly;
 }
 

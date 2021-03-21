@@ -18,6 +18,24 @@ menu.addEventListener('click', (e) => {
 });
 
 /* ==================================================
+                  Scroll Up Button
+================================================== */
+
+document.addEventListener("scroll", handleScroll);
+let scrollUpBtn = document.querySelector(".go-up-btn");
+
+function handleScroll() {
+    var scrollableHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scroll_ratio = 0.18;
+
+    if ((document.documentElement.scrollTop / scrollableHeight) > scroll_ratio) {
+        scrollUpBtn.style.display = "block";
+    } else {
+        scrollUpBtn.style.display = "none";
+    }
+}
+
+/* ==================================================
                   Typewriter Effect
 ================================================== */
 
