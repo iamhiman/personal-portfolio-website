@@ -19,6 +19,10 @@ html {
     overflow-x: hidden;
 }
 
+body{
+    background-color: #eaeaea;
+}
+
 a,
 button {
     outline: none;
@@ -420,8 +424,8 @@ hr{
 ================================================== */
 
 #about {
-    background-color: #eaeaea;
-    border-bottom: 1px solid #c1c1c1;
+    border-bottom: 2px solid #c1c1c1;
+    margin-bottom: 30px;
 }
 
 #about h1 {
@@ -580,7 +584,6 @@ hr{
 ================================================== */
 
 #projects {
-    background-color: #e7e7e5;
     padding-bottom: 60px;
     padding-top: 50px;
 }
@@ -654,7 +657,7 @@ hr{
 }
 
 .project-btn img {
-    width: 40px;
+    width: 35px;
     border-radius: 50%;
 }
 
@@ -801,10 +804,6 @@ hr{
 /* ==================================================
                        Skills
 ================================================== */
-
-#skills {
-    background-color: #e7e7e5;
-}
 
 #skills h1 {
     font-size: 56px;
@@ -997,10 +996,6 @@ hr{
                       Contact
 ================================================== */
 
-#contact {
-    background-color: #e7e7e5;
-}
-
 .contact h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -1187,7 +1182,7 @@ hr{
     border-radius: 50%;
     width: 50px;
     margin-right: 5px;
-    padding: 5px;
+    padding: 3px;
 }
 
 .open-sourced {
