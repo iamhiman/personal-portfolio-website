@@ -9,31 +9,13 @@ let line1 = document.querySelector(".line1")
 let line2 = document.querySelector(".line2")
 let line3 = document.querySelector(".line3")
 
-menu.addEventListener('click', (e) => {
+menu.addEventListener('click', () => {
     navList.classList.toggle('opacity-mob-nav');
     navbar.classList.toggle('height-mob-nav');
     line1.classList.toggle("line-1");
     line2.classList.toggle("line-2");
     line3.classList.toggle("line-3");
 });
-
-/* ==================================================
-                  Scroll Up Button
-================================================== */
-
-document.addEventListener("scroll", handleScroll);
-let scrollUpBtn = document.querySelector(".go-up-btn");
-
-function handleScroll() {
-    var scrollableHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scroll_ratio = 0.18;
-
-    if ((document.documentElement.scrollTop / scrollableHeight) > scroll_ratio) {
-        scrollUpBtn.style.display = "block";
-    } else {
-        scrollUpBtn.style.display = "none";
-    }
-}
 
 /* ==================================================
                   Typewriter Effect
