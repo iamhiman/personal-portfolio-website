@@ -2,7 +2,7 @@
 
 <p align="center">
 	<img src="https://img.shields.io/badge/Platform-Web-brightgreen" alt="Platform-Web">
-	<img src="https://img.shields.io/badge/Repo%20Size-1%20MB-blue" alt="Repo-Size">
+	<img src="https://img.shields.io/badge/Repo%20Size-930%20kB-blue" alt="Repo-Size">
   <img src="https://img.shields.io/badge/Tech%20Stack-HTML%2C%20CSS%2C%20JavaScript%2C%20PHP%20%2B%20MySQL-%23b92e34" alt="Tech-Stack">
   <img src="https://img.shields.io/badge/Library-Typed.js%2C%20Particles.js-orange" alt="Libraries-Used">
 </p><br>
